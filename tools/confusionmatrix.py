@@ -1,3 +1,5 @@
+import numpy as np
+
 def confusionmatrix(y_test,y_pred):
   combine= np.vstack((y_test,y_pred))
   labels = numpy.unique(combine)
